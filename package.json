@@ -1,0 +1,11 @@
+{
+  "name": "xjs-template",
+  "version": "1.0.0",
+  "description": "Project template to create XJS based Components or Applications",
+  "scripts": {
+    "release": "npx esbuild src/index.js --bundle --minify --outdir=build/release",
+    "debug": "npx esbuild src/index.js  --bundle --outdir=build/debug"
+  },
+  "author": "",
+  "license": "ISC"
+}
