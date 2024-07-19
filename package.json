@@ -6,6 +6,6 @@
     "release": "npx esbuild src/index.js --minify --outdir=build/release",
     "debug": "npx esbuild src/index.js --outdir=build/debug"
   },
-  "author": "",
+  "author": "Aprajay",
   "license": "ISC"
 }
