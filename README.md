@@ -1,2 +1,2 @@
-# XJS-TEMPLATE
-Template to create xjs based projects.
+# XJS-WEB-APP
+Template to create xjs based webapp.
