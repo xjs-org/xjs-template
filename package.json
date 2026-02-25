@@ -1,11 +1,8 @@
 {
-  "name": "xjs-template",
+  "name": "xjs-web-app",
   "version": "1.0.0",
-  "description": "Project template to create XJS based Components or Applications",
-  "scripts": {
-    "release": "npx esbuild src/index.js --minify --outdir=build/release",
-    "debug": "npx esbuild src/index.js --outdir=build/debug"
-  },
+  "description": "Project template to create XJS based Applications using Material Styled Components.",
+  "scripts": {  },
   "author": "Aprajay",
   "license": "ISC"
 }

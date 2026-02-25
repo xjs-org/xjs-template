@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>XJS WebApp</title>
+    <style>
+        :root {
+            --background-color: #ffffff;
+            --foreground-color: #000000;
+            --selected-color: #cccccc;
+            --primary-color: rgb(63, 115, 188);
+            --notification-color: #B3261E;
+        }
+
+        *,
+        *::before,
+        *::after {
+            /* Inherit box-sizing from html for easier management and component scaling */
+            /* margin: .1rem; */
+            padding: 0;
+        }
+
+        html {
+            /* 1rem = 10px on most browsers for easier scaling */
+            font-size: 62.5%;
+            /* Set box-sizing globally */
+            box-sizing: border-box;
+            /* Prevent scrollbar from shifting content */
+            overflow-y: scroll;
+        }
+
+        body {
+            display: grid;
+            font-family: system-ui, sans-serif, Arial, Roboto, -apple-system;
+            font-size: 1.6rem;
+            line-height: 1.5;
+            margin: 0;
+            color: var(--foreground-color);
+            background-color: var(--background-color);
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/gh/xjs-org/xjs@main/release/xjs.min.js" crossorigin></script>
+</head>
+
+<body>
+    <script type="module">
+        import webApp from "./src/app.js";
+        XJS.appendElements(document.body, webApp);
+    </script>
+</body>
+</html>
